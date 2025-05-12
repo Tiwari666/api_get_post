@@ -1,0 +1,15 @@
+api:
+  name: Flask GET & POST API
+  version: 1.0
+  routes:
+    - path: /api
+      method: GET
+      response: HTML message
+    - path: /api
+      method: POST
+      response: JSON {"Key": "Hello from POST API!"}
+setup:
+  venv: true
+  dependencies:
+    - flask
+
