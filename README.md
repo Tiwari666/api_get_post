@@ -12,18 +12,31 @@ This is a simple Flask application demonstrating GET and POST APIs.
 #  Add api_config.yaml
 
 api:
+
   name: Flask GET & POST API
+  
   version: 1.0
+  
   routes:
+  
     - path: /api
+    
       method: GET
+      
       response: HTML message
+      
     - path: /api
+    
       method: POST
+      
       response: JSON {"Key": "This is the post"}
+      
 setup:
+
   venv: true
+  
   dependencies:
+  
     - flask
 
 
