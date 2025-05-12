@@ -1,0 +1,18 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+# venv/ → ignores the virtual environment
+
+#__pycache__/ → ignores Python cache
+
+#*.pyc → ignores compiled Python files  
+
+# This file tells GitHub to ignore unnecessary files when you push to your repo.
+#*.pyo → ignores optimized Python files
+#*.pyd → ignores Python dynamic module files
+#*.db → ignores database files
+#*.sqlite3 → ignores SQLite database files
