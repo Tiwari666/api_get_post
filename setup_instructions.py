@@ -79,5 +79,12 @@ Expected Output:
 #venv/
 #__pycache__/
 #*.pyc
-# Go to https://github.com: Log in to your GitHub account and create a new repository callled "api_get_post".
+# Go to https://github.com: Log in to your GitHub account and create a new repository callled "api_get_post" and upload all fies
+#in the folder to the repository.
+
+### Update GitHub After Making Changes##################################
+# git status
+# git add .
+# git commit -m "Update: fixed message in GET API"
+# git push 
 
