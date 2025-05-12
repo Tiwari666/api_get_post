@@ -1,15 +1,16 @@
 api:
-  name: Flask GET & POST API
-  version: 1.0
-  routes:
-    - path: /api
-      method: GET
-      response: HTML message
+  name: Flask GET & POST API        # The name of your API project
+  version: 1.0                      # Version number (good for upgrades!)
+  routes:                           # List of all the routes your app provides
+    - path: /api                    # /api is the route (also called the endpoint or path)
+      method: GET                   # 'GET' is the method (type of request you’re allowing)
+      response: HTML message        # This route sends a simple HTML response
     - path: /api
       method: POST
-      response: JSON {"Key": "Hello from POST API!"}
+      response: JSON {"Key": "Hello from POST API!"}  # This route returns JSON
 setup:
-  venv: true
+  venv: false                        # Says that a virtual environment is not used
   dependencies:
-    - flask
+    - flask                         # Flask is required to run this app
+
 
